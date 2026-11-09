@@ -1,13 +1,9 @@
-# Georgios Karamousalis — Mobile Portfolio
+# Η βιβλιοθήκη εφαρμογών μου
 
-Static portfolio PWA hosted with GitHub Pages. No account is required to open the portfolio.
+Προσωπική εφαρμογή παρουσίασης projects για κινητό, με εικόνες, σύντομες ελληνικές περιγραφές και άνοιγμα των διαθέσιμων demos μέσα σε πλήρη οθόνη.
 
-The MSc application is linked from the Research spotlight. It runs separately on Streamlit; its current access and model status are stated in the portfolio.
+Το MSc demo είναι δημόσιο στο Streamlit και ενσωματώνεται με την επίσημη επιλογή embed=true. Ο κώδικάς του παραμένει ιδιωτικός. Η hosted ανάλυση περιμένει την ολοκλήρωση μεταφοράς του checkpoint.
 
-## Install on iPhone
+Τα screenshots προέρχονται από τα πραγματικά repositories. Όπου δεν υπάρχει screenshot χρησιμοποιείται απλό σύμβολο. Όπου δεν υπάρχει επαληθευμένο online demo προβάλλονται μόνο οι πληροφορίες του project. Η κάρτα της MSc χρησιμοποιεί το πραγματικό διάγραμμα σύγκρισης μοντέλων της διατριβής.
 
-Open the deployed GitHub Pages URL in Safari → Share → Add to Home Screen → Add. Wait for Offline ready before testing without a connection. External demos and repositories require internet.
-
-## Publish changes
-
-GitHub Pages publishes the main branch root. All application files are at the repository root. No build step is needed. Change the cache version in app.js and sw.js when updating offline assets.
+GitHub Pages: main branch, root. Δεν απαιτείται build. Το service worker αποθηκεύει τη βιβλιοθήκη και τις εικόνες για offline περιήγηση. Τα εξωτερικά demos χρειάζονται internet.
